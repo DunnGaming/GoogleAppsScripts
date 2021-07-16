@@ -1,7 +1,6 @@
 // SSG Joseph Dunn PDF Lead Report
 // This script creates an emailed PDF document upon submission of answers from a form to spreadsheet
 // Create your form, spreadsheet, and doc template
-
 // Get template from Google Docs and name it
 var docTemplate = "1_OIkWcyIgVAnEoclnaYsqGT05JcGv6P-mIyxbRdfpsI"; // *** replace with your google doc template ID ***
 var docName = "Letter";
@@ -9,7 +8,7 @@ var docName = "Letter";
 // When Form Gets submitted
 function onFormSubmit(e) {
 //Get information from form and set as variables
-var email_address = "jdunn0423@gmail.com, joseph.h.dunn.mil@mail.mil"; 
+var email_address = "joseph.dunn@thtbc.com"; 
 var tstamp = e.values[0];
 var name = e.values[1];
 var phone = e.values[2];
